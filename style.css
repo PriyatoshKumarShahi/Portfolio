@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, black, #130F40);
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: white;
+  scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(7, 7, 30);
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(180, 180, 246);
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0 ;
+    align-items: center;
+
+}
+
+.leftSection{
+    font-size: 3rem;
+    width: 40%;
+
+}
+.rightSection{
+    width: 30%;
+}
+.purple{
+    color: rgb(136, 64, 203);
+}
+#element{
+    color: rgb(136, 64, 203);
+}
+.seperation{
+    height: 0.4px;
+    background-color: rgb(133, 133, 234);
+    margin: 30px 80px;
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 1150px;
+}
+.secondSection h1{
+font-size: 3rem;
+color: #8892B0;
+
+}
+.vertical-line{
+margin: 50px 0;
+
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: -5px;
+}
+.vertical{
+    width: 2px;
+    height: 200px;
+    background-color: white;
+}
+.small-line{
+    width: 2px;
+    height: 180px;
+    background-color: white;
+}
+.experience{
+    display: flex;
+    height: 100vh;
+}
+.learnings{
+    margin-top:50px ;
+    margin-left: 50px;
+    
+}
+.learnings-text1{
+    font-size: 50px;
+}
+.html{
+    display: flex;
+}
+.learnings-text2{
+    font-size: 50px;
+}
+.css{
+    display: flex;
+    margin-top: 40px;
+
+}
+.js{
+    display: flex;
+}
+.js img{
+    margin-left: 20px;
+}
+.reactjs{
+    display: flex;
+}
+.reactjs img{
+    margin-left: 20px;
+}
+
+.learnings-text3{
+    font-size: 50px;
+    margin-top: 10px;
+}
+.learnings-text4{
+    font-size: 50px;
+    margin-top: 0px;
+}
+.learnings-para1{
+    margin-left: 30px;
+}
+.learnings-para2{
+    margin-left: 30px;
+}
+.learnings-para3{
+    margin-left: 30px;
+}
+.learnings-para4{
+    margin-left: 30px;
+}
+.skills-heading{
+    font-size: 3rem;
+color: #8892B0;
+text-align: center;
+margin: 20px 0;
+}
+.skills-bar{
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.progress{
+    width: 100%;
+    background-color: white;
+    height: 5px;
+    border-radius: 20px;
+}
+.progressbar1{
+    width: 90%;
+    background-color: rgb(47, 119, 150);
+    height: 5px;
+    border-radius: 20px;
+}
+.progressbar2{
+    width: 85%;
+    background-color: rgb(47, 119, 150);
+    height: 5px;
+    border-radius: 20px;
+}
+.progressbar3{
+    width: 40%;
+    background-color: rgb(47, 119, 150);
+    height: 5px;
+    border-radius: 20px;
+}
+.progressbar4{
+    width: 40%;
+    background-color: rgb(47, 119, 150);
+    height: 5px;
+    border-radius: 20px;
+}
+.progressbar5{
+    width: 50%;
+    background-color: rgb(47, 119, 150);
+    height: 5px;
+    border-radius: 20px;
+}
+.progressbar6{
+    width: 70%;
+    background-color: rgb(47, 119, 150);
+    height: 5px;
+    border-radius: 20px;
+}
+.subject{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.skills-bar{
+    gap: 30px;
+}
+.item{
+    gap: 5px;
+    width: 100%;
+}
+.tenth-heading{
+display: flex;
+}
+.tenth-heading span{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.education-heading h1{
+    font-size: 3rem;
+    color: #8892B0; 
+    margin-left: 200px;
+}
+.education-body{
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 80vw;
+    margin: auto; */
+}
+.tenth , .twelth , .UG{
+    width: 25vw;
+    margin-left: 100px;
+}
+.line{
+    display: flex;
+}
+.line1{
+    height:150px;
+    width: 1px;
+    background-color: white;
+    margin: 0 200px;
+}
+.UG{
+    margin-left: 10px;
+}
+.twelth{
+    margin-left: 0px;
+}
+.tenth-heading h1{
+    color: #CCD6F6;    
+margin-bottom: 10px;
+}
+.fifthSection{
+    display: flex;
+    height: 70vh;
+    margin-top: 150px;
+    justify-content: space-evenly;
+}
+.fifthSection .box2 h1{
+    font-size: 3rem;
+    color: #8892B0; 
+    margin: 20px 0;
+} 
+.email{
+    margin-bottom: 20px;
+}
+.box2{
+    font-weight: bolder;
+}
+.email , .phone , .whatsapp{
+    font-size: 20px;
+}
+.phone{
+    margin-bottom: 20px;
+}
+.mb-3{
+    display: flex;
+    width: 20vw;
+    flex-direction: column;
+   
+}
+.box3{
+    margin-top: 20px;
+}
+.form-control{
+    height: 30px;
+    margin-bottom: 20px ;
+}
+.mb-3 input,textarea{
+    border-radius: 10px;
+    font-size: 15px;
+}
+.btn{
+    width: 25%;
+    background-color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.copyright{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #0d0a2b;
+}
+.icons{
+    display: flex;
+    margin-top: 20px;
+    font-size: 30px;
+    
+}
+.icons i{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.facebook i{
+    margin-left: -10px;
+    text-decoration: none;
+    color: rgb(88, 53, 160);
+}
+.insta i{
+    text-decoration: none;
+    color: rgb(88, 53, 160);
+}
+.linkdin i{
+    text-decoration: none;
+    color: rgb(88, 53, 160);
+}
+.facebook i:hover{
+    color: rgb(57, 9, 181);
+}
+.insta i:hover{
+color: pink;
+}
+.linkdin i:hover{
+    color: rgb(7, 7, 127);
+}
+#download-btn{
+    cursor: pointer;
+    background-color:rgb(7, 7, 30) ;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+#download-btn:hover{
+    color: rgb(180, 180, 246);
+}
