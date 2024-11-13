@@ -537,7 +537,9 @@ font-size: 20px;
   #PORTFOLIO
 \*-----------------------------------*/
 
-.portfolio .section-title { margin-block-end: 18px; }
+.portfolio .section-title {
+   margin-block-end: 18px; 
+  }
 
 .portfolio .section-text { margin-block-end: 80px; }
 
